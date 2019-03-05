@@ -1,0 +1,12 @@
+a=[]
+c=0
+while c<10:
+    b=int(input('введите любое число: '))
+    a.append(b)
+    c=c+1
+print(a)
+a.sort()
+print(a)
+for x in a:
+    x=x*10
+    print (x)
