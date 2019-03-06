@@ -5,6 +5,6 @@ while(1==1):
         break
     k=0
     for x in s:
-        if(x in 'аеёийоуыэюя'):
+        if(x in 'аеёиоуыэюя'):
             k=k+1
     print(k)
