@@ -1,0 +1,4 @@
+mas=['this is the text', 'http://mail.ru', 'other text', 'http://yandex.ru', 'https://reasonlanguage.blogspot.com']
+for x in mas:
+    if((x[0:4]=='http') or (x[0:5]=='https')):
+        print(x)
