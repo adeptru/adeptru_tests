@@ -53,4 +53,6 @@ S=1
 while a <= l:
     S=a*S
     a+=1
-print(S)
+S2l=l*(l-1)
+print('кол-во комбинаций - '+str(S))
+print('...из них двузначных - '+str(S2l))
